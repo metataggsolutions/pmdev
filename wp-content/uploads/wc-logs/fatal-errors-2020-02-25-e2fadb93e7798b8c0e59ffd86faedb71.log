@@ -1,0 +1,10 @@
+2020-02-25T12:39:27+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /home/wfm/public_html/pmdev.wowfactormedia.ca/wp-content/themes/prairiemeats-child/functions.php:866
+Stack trace:
+#0 /home/wfm/public_html/pmdev.wowfactormedia.ca/wp-includes/class-wp-hook.php(290): custom_pre_get_posts_query(Object(WP_Query))
+#1 /home/wfm/public_html/pmdev.wowfactormedia.ca/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#2 /home/wfm/public_html/pmdev.wowfactormedia.ca/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/wfm/public_html/pmdev.wowfactormedia.ca/wp-content/plugins/woocommerce/includes/class-wc-query.php(420): do_action('woocommerce_pro...', Object(WP_Query), Object(WC_Query))
+#4 /home/wfm/public_html/pmdev.wowfactormedia.ca/wp-content/plugins/woocommerce/includes/class-wc-query.php(348): WC_Query->product_query(Object(WP_Query))
+#5 /home/wfm/public_html/pmdev.wowfactormedia.ca/wp-includes/class-wp-hook.php(288): WC_Query->pre_get_posts(Object(WP_Query))
+#6 /home/wfm/public_html/pmdev.wo in /home/wfm/public_html/pmdev.wowfactormedia.ca/wp-content/themes/prairiemeats-child/functions.php on line 866
+

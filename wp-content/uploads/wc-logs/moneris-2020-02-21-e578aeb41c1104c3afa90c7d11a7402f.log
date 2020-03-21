@@ -1,0 +1,428 @@
+02-21-2020 @ 02:27:47 - Request
+method: POST
+uri: https://esqa.moneris.com/gateway2/servlet/MpgRequest
+user-agent: WooCommerce-Moneris-Gateway/2.12.0 (WooCommerce/3.9.2; WordPress/5.3.2)
+headers: Array
+(
+    [content-type] => application/xml
+    [accept] => application/xml
+)
+body: <?xml version="1.0" encoding="UTF-8"?>
+<request>
+  <store_id>store5</store_id>
+  <api_token>******</api_token>
+  <purchase>
+    <order_id>5e4f401b25d3207409141236469</order_id>
+    <amount>34.90</amount>
+    <pan>5***********4242</pan>
+    <expdate>2101</expdate>
+    <crypt_type>7</crypt_type>
+    <dynamic_descriptor/>
+    <cvd_info>
+      <cvd_indicator>1</cvd_indicator>
+      <cvd_value>***</cvd_value>
+    </cvd_info>
+    <cust_info>
+      <email>margaret.c.owens@gmail.com</email>
+      <instructions/>
+      <billing>
+        <first_name>Margaret</first_name>
+        <last_name>Owens</last_name>
+        <company_name/>
+        <address>3-254 Athabasca St W</address>
+        <city>Moose Jaw</city>
+        <province>SK</province>
+        <postal_code>S6H 2B9</postal_code>
+        <country>CA</country>
+        <phone_number>3066308636</phone_number>
+        <fax/>
+        <tax1/>
+        <tax2/>
+        <tax3/>
+        <shipping_cost>0.00</shipping_cost>
+      </billing>
+      <shipping>
+        <first_name>Margaret</first_name>
+        <last_name>Owens</last_name>
+        <company_name/>
+        <address>3-254 Athabasca St W</address>
+        <city>Moose Jaw</city>
+        <province>SK</province>
+        <postal_code>S6H 2B9</postal_code>
+        <country>CA</country>
+        <phone_number/>
+        <fax/>
+        <tax1/>
+        <tax2/>
+        <tax3/>
+        <shipping_cost>0.00</shipping_cost>
+      </shipping>
+      <item>
+        <name>Prairie Best Burgers</name>
+        <quantity>1</quantity>
+        <product_code>404083</product_code>
+        <extended_amount>34.90</extended_amount>
+      </item>
+    </cust_info>
+  </purchase>
+</request>
+duration: 7.86934s
+
+02-21-2020 @ 02:27:47 - Response
+code: 200
+message: OK
+headers: Array
+(
+    [date] => Fri, 21 Feb 2020 02:27:47 GMT
+    [content-length] => 715
+    [x-ua-compatible] => IE=Edge
+    [content-type] => text/html
+    [set-cookie] => TS019df888=015d06d254e2746f2dba79204c7ef806200a37af7cc73c6a7fda77852ece68db0d1beedd16c98611ab48b3be20c945b88b7ecf1d76; Path=/; Domain=.esqa.moneris.com; Secure
+)
+body: <?xml version="1.0" standalone="yes"?>
+<response>
+  <receipt>
+    <ReceiptId>5e4f401b25d3207409141236469</ReceiptId>
+    <ReferenceNum>660148420017559270</ReferenceNum>
+    <ResponseCode>027</ResponseCode>
+    <ISO>01</ISO>
+    <AuthCode>422874</AuthCode>
+    <TransTime>21:27:47</TransTime>
+    <TransDate>2020-02-20</TransDate>
+    <TransType>00</TransType>
+    <Complete>true</Complete>
+    <Message>APPROVED           *                    =</Message>
+    <TransAmount>34.90</TransAmount>
+    <CardType>M</CardType>
+    <TransID>168758-0_15</TransID>
+    <TimedOut>false</TimedOut>
+    <BankTotals>null</BankTotals>
+    <Ticket>null</Ticket>
+    <CorporateCard>true</CorporateCard>
+    <CvdResultCode>1P</CvdResultCode>
+    <CavvResultCode>2</CavvResultCode>
+    <IsVisaDebit>false</IsVisaDebit>
+  </receipt>
+</response>
+
+02-21-2020 @ 03:31:29 - Request
+method: POST
+uri: https://esqa.moneris.com/gateway2/servlet/MpgRequest
+user-agent: WooCommerce-Moneris-Gateway/2.12.0 (WooCommerce/3.9.2; WordPress/5.3.2)
+headers: Array
+(
+    [content-type] => application/xml
+    [accept] => application/xml
+)
+body: <?xml version="1.0" encoding="UTF-8"?>
+<request>
+  <store_id>store5</store_id>
+  <api_token>******</api_token>
+  <purchase>
+    <order_id>5e4f4f0a2964265914596636470</order_id>
+    <amount>10.00</amount>
+    <pan>5***********4242</pan>
+    <expdate>2101</expdate>
+    <crypt_type>7</crypt_type>
+    <dynamic_descriptor/>
+    <cvd_info>
+      <cvd_indicator>1</cvd_indicator>
+      <cvd_value>***</cvd_value>
+    </cvd_info>
+    <cust_info>
+      <email>margaret.c.owens@gmail.com</email>
+      <instructions/>
+      <billing>
+        <first_name>Margaret</first_name>
+        <last_name>Owens</last_name>
+        <company_name>1983</company_name>
+        <address>419 Ominica St W</address>
+        <city>MOOSE JAW</city>
+        <province>SK</province>
+        <postal_code>S7H 0B3</postal_code>
+        <country>CA</country>
+        <phone_number>+1 03066308636</phone_number>
+        <fax/>
+        <tax1/>
+        <tax2/>
+        <tax3/>
+        <shipping_cost>13.95</shipping_cost>
+      </billing>
+      <shipping>
+        <first_name>Margaret</first_name>
+        <last_name>Owens</last_name>
+        <company_name>1983</company_name>
+        <address>419 Ominica St W</address>
+        <city>MOOSE JAW</city>
+        <province>SK</province>
+        <postal_code>S7H 0B3</postal_code>
+        <country>CA</country>
+        <phone_number/>
+        <fax/>
+        <tax1/>
+        <tax2/>
+        <tax3/>
+        <shipping_cost>13.95</shipping_cost>
+      </shipping>
+      <item>
+        <name>Bothwell Horseradish Cheddar Cheese</name>
+        <quantity>1</quantity>
+        <product_code>417070</product_code>
+        <extended_amount>3.90</extended_amount>
+      </item>
+    </cust_info>
+  </purchase>
+</request>
+duration: 7.53385s
+
+02-21-2020 @ 03:31:29 - Response
+code: 200
+message: OK
+headers: Array
+(
+    [date] => Fri, 21 Feb 2020 03:31:30 GMT
+    [content-length] => 715
+    [x-ua-compatible] => IE=Edge
+    [content-type] => text/html
+    [set-cookie] => TS019df888=015d06d254383a654282498c8bdc13245006a6168c0c551881d74741aabc1f3048276099930703934eecd4a29e7362a1cbcfb4e082; Path=/; Domain=.esqa.moneris.com; Secure
+)
+body: <?xml version="1.0" standalone="yes"?>
+<response>
+  <receipt>
+    <ReceiptId>5e4f4f0a2964265914596636470</ReceiptId>
+    <ReferenceNum>660148420017552350</ReferenceNum>
+    <ResponseCode>027</ResponseCode>
+    <ISO>01</ISO>
+    <AuthCode>114065</AuthCode>
+    <TransTime>22:31:30</TransTime>
+    <TransDate>2020-02-20</TransDate>
+    <TransType>00</TransType>
+    <Complete>true</Complete>
+    <Message>APPROVED           *                    =</Message>
+    <TransAmount>10.00</TransAmount>
+    <CardType>M</CardType>
+    <TransID>169076-0_15</TransID>
+    <TimedOut>false</TimedOut>
+    <BankTotals>null</BankTotals>
+    <Ticket>null</Ticket>
+    <CorporateCard>true</CorporateCard>
+    <CvdResultCode>1P</CvdResultCode>
+    <CavvResultCode>2</CavvResultCode>
+    <IsVisaDebit>false</IsVisaDebit>
+  </receipt>
+</response>
+
+02-21-2020 @ 03:37:50 - Request
+method: POST
+uri: https://esqa.moneris.com/gateway2/servlet/MpgRequest
+user-agent: WooCommerce-Moneris-Gateway/2.12.0 (WooCommerce/3.9.2; WordPress/5.3.2)
+headers: Array
+(
+    [content-type] => application/xml
+    [accept] => application/xml
+)
+body: <?xml version="1.0" encoding="UTF-8"?>
+<request>
+  <store_id>store5</store_id>
+  <api_token>******</api_token>
+  <purchase>
+    <order_id>5e4f508da904528657156436471</order_id>
+    <amount>5.00</amount>
+    <pan>5***********4242</pan>
+    <expdate>2101</expdate>
+    <crypt_type>7</crypt_type>
+    <dynamic_descriptor/>
+    <cvd_info>
+      <cvd_indicator>1</cvd_indicator>
+      <cvd_value>***</cvd_value>
+    </cvd_info>
+    <cust_info>
+      <email>margaret.c.owens@gmail.com</email>
+      <instructions/>
+      <billing>
+        <first_name>Margaret</first_name>
+        <last_name>Owens</last_name>
+        <company_name/>
+        <address>3-254 Athabasca St W</address>
+        <city>Moose Jaw</city>
+        <province>SK</province>
+        <postal_code>S6H 2B9</postal_code>
+        <country>CA</country>
+        <phone_number>3066308636</phone_number>
+        <fax/>
+        <tax1/>
+        <tax2/>
+        <tax3/>
+        <shipping_cost>0.00</shipping_cost>
+      </billing>
+      <shipping>
+        <first_name>Margaret</first_name>
+        <last_name>Owens</last_name>
+        <company_name/>
+        <address>3-254 Athabasca St W</address>
+        <city>Moose Jaw</city>
+        <province>SK</province>
+        <postal_code>S6H 2B9</postal_code>
+        <country>CA</country>
+        <phone_number/>
+        <fax/>
+        <tax1/>
+        <tax2/>
+        <tax3/>
+        <shipping_cost>0.00</shipping_cost>
+      </shipping>
+      <item>
+        <name>Test Product</name>
+        <quantity>1</quantity>
+        <product_code/>
+        <extended_amount>20.00</extended_amount>
+      </item>
+    </cust_info>
+  </purchase>
+</request>
+duration: 0.9009s
+
+02-21-2020 @ 03:37:50 - Response
+code: 200
+message: OK
+headers: Array
+(
+    [date] => Fri, 21 Feb 2020 03:37:51 GMT
+    [content-length] => 714
+    [x-ua-compatible] => IE=Edge
+    [content-type] => text/html
+    [set-cookie] => TS019df888=015d06d254b11c6392be8ce37ad125162c091c012cdb29db9a046e1665b2065af8afca3c840dd7c09e4b21acee382499ee18d3a0de; Path=/; Domain=.esqa.moneris.com; Secure
+)
+body: <?xml version="1.0" standalone="yes"?>
+<response>
+  <receipt>
+    <ReceiptId>5e4f508da904528657156436471</ReceiptId>
+    <ReferenceNum>660148420017552760</ReferenceNum>
+    <ResponseCode>027</ResponseCode>
+    <ISO>01</ISO>
+    <AuthCode>135671</AuthCode>
+    <TransTime>22:37:51</TransTime>
+    <TransDate>2020-02-20</TransDate>
+    <TransType>00</TransType>
+    <Complete>true</Complete>
+    <Message>APPROVED           *                    =</Message>
+    <TransAmount>5.00</TransAmount>
+    <CardType>M</CardType>
+    <TransID>169119-0_15</TransID>
+    <TimedOut>false</TimedOut>
+    <BankTotals>null</BankTotals>
+    <Ticket>null</Ticket>
+    <CorporateCard>true</CorporateCard>
+    <CvdResultCode>1P</CvdResultCode>
+    <CavvResultCode>2</CavvResultCode>
+    <IsVisaDebit>false</IsVisaDebit>
+  </receipt>
+</response>
+
+02-21-2020 @ 09:42:23 - Request
+method: POST
+uri: https://esqa.moneris.com/gateway2/servlet/MpgRequest
+user-agent: WooCommerce-Moneris-Gateway/2.12.0 (WooCommerce/3.9.2; WordPress/5.3.2)
+headers: Array
+(
+    [content-type] => application/xml
+    [accept] => application/xml
+)
+body: <?xml version="1.0" encoding="UTF-8"?>
+<request>
+  <store_id>store5</store_id>
+  <api_token>******</api_token>
+  <purchase>
+    <order_id>5e4fa5f942b1a80108878336472</order_id>
+    <amount>13.90</amount>
+    <pan>5***********4242</pan>
+    <expdate>2101</expdate>
+    <crypt_type>7</crypt_type>
+    <dynamic_descriptor/>
+    <cvd_info>
+      <cvd_indicator>1</cvd_indicator>
+      <cvd_value>***</cvd_value>
+    </cvd_info>
+    <cust_info>
+      <email>wfmdevelopers@gmail.com</email>
+      <instructions/>
+      <billing>
+        <first_name>wfm</first_name>
+        <last_name>dev</last_name>
+        <company_name/>
+        <address>test address</address>
+        <city>Saskatoon</city>
+        <province>SK</province>
+        <postal_code>S7H 0A4</postal_code>
+        <country>CA</country>
+        <phone_number>9988776655</phone_number>
+        <fax/>
+        <tax1/>
+        <tax2/>
+        <tax3/>
+        <shipping_cost>0.00</shipping_cost>
+      </billing>
+      <shipping>
+        <first_name>wfm</first_name>
+        <last_name>dev</last_name>
+        <company_name/>
+        <address>test address</address>
+        <city>Saskatoon</city>
+        <province>SK</province>
+        <postal_code>S7H 0A4</postal_code>
+        <country>CA</country>
+        <phone_number/>
+        <fax/>
+        <tax1/>
+        <tax2/>
+        <tax3/>
+        <shipping_cost>0.00</shipping_cost>
+      </shipping>
+      <item>
+        <name>Chicken Breast Bites</name>
+        <quantity>1</quantity>
+        <product_code>256301</product_code>
+        <extended_amount>13.90</extended_amount>
+      </item>
+    </cust_info>
+  </purchase>
+</request>
+duration: 6.24973s
+
+02-21-2020 @ 09:42:23 - Response
+code: 200
+message: OK
+headers: Array
+(
+    [date] => Fri, 21 Feb 2020 09:42:24 GMT
+    [content-length] => 715
+    [x-ua-compatible] => IE=Edge
+    [content-type] => text/html
+    [set-cookie] => TS019df888=015d06d254739521726410770a28f11f812d908b9e55d4dc37d50e6087bbec12e5a3353163ee43acec32d1206cae3b73daec887053; Path=/; Domain=.esqa.moneris.com; Secure
+)
+body: <?xml version="1.0" standalone="yes"?>
+<response>
+  <receipt>
+    <ReceiptId>5e4fa5f942b1a80108878336472</ReceiptId>
+    <ReferenceNum>660148420017565460</ReferenceNum>
+    <ResponseCode>027</ResponseCode>
+    <ISO>01</ISO>
+    <AuthCode>924481</AuthCode>
+    <TransTime>04:42:24</TransTime>
+    <TransDate>2020-02-21</TransDate>
+    <TransType>00</TransType>
+    <Complete>true</Complete>
+    <Message>APPROVED           *                    =</Message>
+    <TransAmount>13.90</TransAmount>
+    <CardType>M</CardType>
+    <TransID>173400-0_15</TransID>
+    <TimedOut>false</TimedOut>
+    <BankTotals>null</BankTotals>
+    <Ticket>null</Ticket>
+    <CorporateCard>true</CorporateCard>
+    <CvdResultCode>1P</CvdResultCode>
+    <CavvResultCode>2</CavvResultCode>
+    <IsVisaDebit>false</IsVisaDebit>
+  </receipt>
+</response>
+

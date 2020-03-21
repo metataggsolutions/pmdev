@@ -1,0 +1,215 @@
+02-26-2020 @ 20:40:47 - Request
+method: POST
+uri: https://esqa.moneris.com/gateway2/servlet/MpgRequest
+user-agent: WooCommerce-Moneris-Gateway/2.12.0 (WooCommerce/3.9.2; WordPress/5.3.2)
+headers: Array
+(
+    [content-type] => application/xml
+    [accept] => application/xml
+)
+body: <?xml version="1.0" encoding="UTF-8"?>
+<request>
+  <store_id>store5</store_id>
+  <api_token>******</api_token>
+  <purchase>
+    <order_id>5e572c27f139d46762120336716</order_id>
+    <cust_id>wc-17-5e5728c628034</cust_id>
+    <amount>34.00</amount>
+    <pan>5***********4242</pan>
+    <expdate>2101</expdate>
+    <crypt_type>7</crypt_type>
+    <dynamic_descriptor/>
+    <cvd_info>
+      <cvd_indicator>1</cvd_indicator>
+      <cvd_value>***</cvd_value>
+    </cvd_info>
+    <cust_info>
+      <email>circle8mapsapi@gmail.com</email>
+      <instructions/>
+      <billing>
+        <first_name>fake</first_name>
+        <last_name>name</last_name>
+        <company_name/>
+        <address>333</address>
+        <city>regina</city>
+        <province>SK</province>
+        <postal_code>S4N 0A2</postal_code>
+        <country>CA</country>
+        <phone_number>3333333333</phone_number>
+        <fax/>
+        <tax1/>
+        <tax2/>
+        <tax3/>
+        <shipping_cost>13.95</shipping_cost>
+      </billing>
+      <shipping>
+        <first_name>fake</first_name>
+        <last_name>name</last_name>
+        <company_name/>
+        <address>333</address>
+        <city>regina</city>
+        <province>SK</province>
+        <postal_code>S4N 0A2</postal_code>
+        <country>CA</country>
+        <phone_number/>
+        <fax/>
+        <tax1/>
+        <tax2/>
+        <tax3/>
+        <shipping_cost>13.95</shipping_cost>
+      </shipping>
+      <item>
+        <name>3 Cheese Scalloped Potatoes</name>
+        <quantity>1</quantity>
+        <product_code>480013</product_code>
+        <extended_amount>9.90</extended_amount>
+      </item>
+    </cust_info>
+  </purchase>
+</request>
+duration: 7.04481s
+
+02-26-2020 @ 20:40:47 - Response
+code: 200
+message: OK
+headers: Array
+(
+    [date] => Thu, 27 Feb 2020 02:40:46 GMT
+    [content-length] => 715
+    [x-ua-compatible] => IE=Edge
+    [content-type] => text/html
+    [set-cookie] => TS019df888=015d06d254ec9e750d6c2c08b962ee246344f0ec244a1d5677ecf402aa879988ba4d0eff2feae0852ce4541763f2cad8f26781e935; Path=/; Domain=.esqa.moneris.com; Secure
+)
+body: <?xml version="1.0" standalone="yes"?>
+<response>
+  <receipt>
+    <ReceiptId>5e572c27f139d46762120336716</ReceiptId>
+    <ReferenceNum>660148420017731560</ReferenceNum>
+    <ResponseCode>027</ResponseCode>
+    <ISO>01</ISO>
+    <AuthCode>806103</AuthCode>
+    <TransTime>21:40:46</TransTime>
+    <TransDate>2020-02-26</TransDate>
+    <TransType>00</TransType>
+    <Complete>true</Complete>
+    <Message>APPROVED           *                    =</Message>
+    <TransAmount>34.00</TransAmount>
+    <CardType>M</CardType>
+    <TransID>261216-0_15</TransID>
+    <TimedOut>false</TimedOut>
+    <BankTotals>null</BankTotals>
+    <Ticket>null</Ticket>
+    <CorporateCard>true</CorporateCard>
+    <CvdResultCode>1P</CvdResultCode>
+    <CavvResultCode>2</CavvResultCode>
+    <IsVisaDebit>false</IsVisaDebit>
+  </receipt>
+</response>
+
+02-26-2020 @ 20:48:51 - Request
+method: POST
+uri: https://esqa.moneris.com/gateway2/servlet/MpgRequest
+user-agent: WooCommerce-Moneris-Gateway/2.12.0 (WooCommerce/3.9.2; WordPress/5.3.2)
+headers: Array
+(
+    [content-type] => application/xml
+    [accept] => application/xml
+)
+body: <?xml version="1.0" encoding="UTF-8"?>
+<request>
+  <store_id>store5</store_id>
+  <api_token>******</api_token>
+  <purchase>
+    <order_id>5e572e118185b41509562936717</order_id>
+    <amount>11.00</amount>
+    <pan>5***********4242</pan>
+    <expdate>2101</expdate>
+    <crypt_type>7</crypt_type>
+    <dynamic_descriptor/>
+    <cvd_info>
+      <cvd_indicator>1</cvd_indicator>
+      <cvd_value>***</cvd_value>
+    </cvd_info>
+    <cust_info>
+      <email>margaret.c.owens@gmail.com</email>
+      <instructions/>
+      <billing>
+        <first_name>Margaret</first_name>
+        <last_name>Owens</last_name>
+        <company_name/>
+        <address>3-254 Athabasca St W</address>
+        <city>Moose Jaw</city>
+        <province>SK</province>
+        <postal_code>S4N 0A6</postal_code>
+        <country>CA</country>
+        <phone_number>3066308636</phone_number>
+        <fax/>
+        <tax1/>
+        <tax2/>
+        <tax3/>
+        <shipping_cost>0.00</shipping_cost>
+      </billing>
+      <shipping>
+        <first_name>Margaret</first_name>
+        <last_name>Owens</last_name>
+        <company_name/>
+        <address>3-254 Athabasca St W</address>
+        <city>Moose Jaw</city>
+        <province>SK</province>
+        <postal_code>S4N 0A6</postal_code>
+        <country>CA</country>
+        <phone_number/>
+        <fax/>
+        <tax1/>
+        <tax2/>
+        <tax3/>
+        <shipping_cost>0.00</shipping_cost>
+      </shipping>
+      <item>
+        <name>3 Cheese Scalloped Potatoes</name>
+        <quantity>1</quantity>
+        <product_code>480013</product_code>
+        <extended_amount>9.90</extended_amount>
+      </item>
+    </cust_info>
+  </purchase>
+</request>
+duration: 2.17298s
+
+02-26-2020 @ 20:48:51 - Response
+code: 200
+message: OK
+headers: Array
+(
+    [date] => Thu, 27 Feb 2020 02:48:51 GMT
+    [content-length] => 715
+    [x-ua-compatible] => IE=Edge
+    [content-type] => text/html
+    [set-cookie] => TS019df888=015d06d2541f72b0a0bab1ad007d1892a0bfc3ef02d4f38acef21806e64619681bc9152bd6a422bbc23737fabbdb67c6fff242af30; Path=/; Domain=.esqa.moneris.com; Secure
+)
+body: <?xml version="1.0" standalone="yes"?>
+<response>
+  <receipt>
+    <ReceiptId>5e572e118185b41509562936717</ReceiptId>
+    <ReferenceNum>660148420017732370</ReferenceNum>
+    <ResponseCode>027</ResponseCode>
+    <ISO>01</ISO>
+    <AuthCode>152722</AuthCode>
+    <TransTime>21:48:51</TransTime>
+    <TransDate>2020-02-26</TransDate>
+    <TransType>00</TransType>
+    <Complete>true</Complete>
+    <Message>APPROVED           *                    =</Message>
+    <TransAmount>11.00</TransAmount>
+    <CardType>M</CardType>
+    <TransID>261319-0_15</TransID>
+    <TimedOut>false</TimedOut>
+    <BankTotals>null</BankTotals>
+    <Ticket>null</Ticket>
+    <CorporateCard>true</CorporateCard>
+    <CvdResultCode>1P</CvdResultCode>
+    <CavvResultCode>2</CavvResultCode>
+    <IsVisaDebit>false</IsVisaDebit>
+  </receipt>
+</response>
+

@@ -1,0 +1,217 @@
+02-29-2020 @ 04:52:36 - Request
+method: POST
+uri: https://esqa.moneris.com/gateway2/servlet/MpgRequest
+user-agent: WooCommerce-Moneris-Gateway/2.12.0 (WooCommerce/3.9.2; WordPress/5.3.2)
+headers: Array
+(
+    [content-type] => application/xml
+    [accept] => application/xml
+)
+body: <?xml version="1.0" encoding="UTF-8"?>
+<request>
+  <store_id>store5</store_id>
+  <api_token>******</api_token>
+  <purchase>
+    <order_id>5e5a426d4cce834438537536830</order_id>
+    <cust_id>wc-20-5e5a3f0675214</cust_id>
+    <amount>65.75</amount>
+    <pan>5***********4242</pan>
+    <expdate>2101</expdate>
+    <crypt_type>7</crypt_type>
+    <dynamic_descriptor/>
+    <cvd_info>
+      <cvd_indicator>1</cvd_indicator>
+      <cvd_value>***</cvd_value>
+    </cvd_info>
+    <cust_info>
+      <email>wfmdevelopers@gmail.com</email>
+      <instructions/>
+      <billing>
+        <first_name>wfmdev</first_name>
+        <last_name>wfmdev</last_name>
+        <company_name/>
+        <address>test address</address>
+        <city>saskatoon</city>
+        <province>SK</province>
+        <postal_code>S7H 0A4</postal_code>
+        <country>CA</country>
+        <phone_number>9988776655</phone_number>
+        <fax/>
+        <tax1/>
+        <tax2/>
+        <tax3/>
+        <shipping_cost>13.95</shipping_cost>
+      </billing>
+      <shipping>
+        <first_name>wfmdev</first_name>
+        <last_name>wfmdev</last_name>
+        <company_name/>
+        <address>test address</address>
+        <city>saskatoon</city>
+        <province>SK</province>
+        <postal_code>S7H 0A4</postal_code>
+        <country>CA</country>
+        <phone_number/>
+        <fax/>
+        <tax1/>
+        <tax2/>
+        <tax3/>
+        <shipping_cost>13.95</shipping_cost>
+      </shipping>
+      <item>
+        <name>Boneless Centre Cut Pork Loin Chop - Frozen</name>
+        <quantity>2</quantity>
+        <product_code>103020</product_code>
+        <extended_amount>51.80</extended_amount>
+      </item>
+    </cust_info>
+  </purchase>
+</request>
+duration: 6.93176s
+
+02-29-2020 @ 04:52:36 - Response
+code: 200
+message: OK
+headers: Array
+(
+    [date] => Sat, 29 Feb 2020 10:52:36 GMT
+    [content-length] => 715
+    [x-ua-compatible] => IE=Edge
+    [content-type] => text/html
+    [set-cookie] => TS019df888=015d06d254236efe94f78238036049f21f62e2e4f8fd4572265c648f967ec1cd8068288f049175219bdf1e76fabeaf752c8ad1a636; Path=/; Domain=.esqa.moneris.com; Secure
+)
+body: <?xml version="1.0" standalone="yes"?>
+<response>
+  <receipt>
+    <ReceiptId>5e5a426d4cce834438537536830</ReceiptId>
+    <ReferenceNum>660148420017814970</ReferenceNum>
+    <ResponseCode>481</ResponseCode>
+    <ISO>75</ISO>
+    <AuthCode>000000</AuthCode>
+    <TransTime>05:52:36</TransTime>
+    <TransDate>2020-02-29</TransDate>
+    <TransType>00</TransType>
+    <Complete>true</Complete>
+    <Message>DECLINED           *                    =</Message>
+    <TransAmount>65.75</TransAmount>
+    <CardType>M</CardType>
+    <TransID>325162-0_15</TransID>
+    <TimedOut>false</TimedOut>
+    <BankTotals>null</BankTotals>
+    <Ticket>null</Ticket>
+    <CorporateCard>true</CorporateCard>
+    <CvdResultCode>1P</CvdResultCode>
+    <CavvResultCode>2</CavvResultCode>
+    <IsVisaDebit>false</IsVisaDebit>
+  </receipt>
+</response>
+
+02-29-2020 @ 04:52:36 - Status code 481: DECLINED           *                    = Transaction ID 325162-0_15
+02-29-2020 @ 04:55:34 - Request
+method: POST
+uri: https://esqa.moneris.com/gateway2/servlet/MpgRequest
+user-agent: WooCommerce-Moneris-Gateway/2.12.0 (WooCommerce/3.9.2; WordPress/5.3.2)
+headers: Array
+(
+    [content-type] => application/xml
+    [accept] => application/xml
+)
+body: <?xml version="1.0" encoding="UTF-8"?>
+<request>
+  <store_id>store5</store_id>
+  <api_token>******</api_token>
+  <purchase>
+    <order_id>5e5a4325a992555094441136830-1</order_id>
+    <cust_id>wc-20-5e5a3f0675214</cust_id>
+    <amount>10.00</amount>
+    <pan>5***********4242</pan>
+    <expdate>2101</expdate>
+    <crypt_type>7</crypt_type>
+    <dynamic_descriptor/>
+    <cvd_info>
+      <cvd_indicator>1</cvd_indicator>
+      <cvd_value>***</cvd_value>
+    </cvd_info>
+    <cust_info>
+      <email>wfmdevelopers@gmail.com</email>
+      <instructions/>
+      <billing>
+        <first_name>wfmdev</first_name>
+        <last_name>wfmdev</last_name>
+        <company_name/>
+        <address>test address</address>
+        <city>saskatoon</city>
+        <province>SK</province>
+        <postal_code>S7H 0A4</postal_code>
+        <country>CA</country>
+        <phone_number>9988776655</phone_number>
+        <fax/>
+        <tax1/>
+        <tax2/>
+        <tax3/>
+        <shipping_cost>13.95</shipping_cost>
+      </billing>
+      <shipping>
+        <first_name>wfmdev</first_name>
+        <last_name>wfmdev</last_name>
+        <company_name/>
+        <address>test address</address>
+        <city>saskatoon</city>
+        <province>SK</province>
+        <postal_code>S7H 0A4</postal_code>
+        <country>CA</country>
+        <phone_number/>
+        <fax/>
+        <tax1/>
+        <tax2/>
+        <tax3/>
+        <shipping_cost>13.95</shipping_cost>
+      </shipping>
+      <item>
+        <name>Boneless Centre Cut Pork Loin Chop - Frozen</name>
+        <quantity>2</quantity>
+        <product_code>103020</product_code>
+        <extended_amount>51.80</extended_amount>
+      </item>
+    </cust_info>
+  </purchase>
+</request>
+duration: 0.89325s
+
+02-29-2020 @ 04:55:34 - Response
+code: 200
+message: OK
+headers: Array
+(
+    [date] => Sat, 29 Feb 2020 10:55:34 GMT
+    [content-length] => 717
+    [x-ua-compatible] => IE=Edge
+    [content-type] => text/html
+    [set-cookie] => TS019df888=015d06d254887464a03124886b23344769af8cd3093f75ae2277fd47200cba5e8368f777ec999e95ef205aee54547907bee6ea3b22; Path=/; Domain=.esqa.moneris.com; Secure
+)
+body: <?xml version="1.0" standalone="yes"?>
+<response>
+  <receipt>
+    <ReceiptId>5e5a4325a992555094441136830-1</ReceiptId>
+    <ReferenceNum>660148420017815270</ReferenceNum>
+    <ResponseCode>027</ResponseCode>
+    <ISO>01</ISO>
+    <AuthCode>870557</AuthCode>
+    <TransTime>05:55:34</TransTime>
+    <TransDate>2020-02-29</TransDate>
+    <TransType>00</TransType>
+    <Complete>true</Complete>
+    <Message>APPROVED           *                    =</Message>
+    <TransAmount>10.00</TransAmount>
+    <CardType>M</CardType>
+    <TransID>325192-0_15</TransID>
+    <TimedOut>false</TimedOut>
+    <BankTotals>null</BankTotals>
+    <Ticket>null</Ticket>
+    <CorporateCard>true</CorporateCard>
+    <CvdResultCode>1P</CvdResultCode>
+    <CavvResultCode>2</CavvResultCode>
+    <IsVisaDebit>false</IsVisaDebit>
+  </receipt>
+</response>
+

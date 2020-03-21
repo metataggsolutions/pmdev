@@ -1,0 +1,126 @@
+02-25-2020 @ 21:05:19 - Request
+method: POST
+uri: https://esqa.moneris.com/gateway2/servlet/MpgRequest
+user-agent: WooCommerce-Moneris-Gateway/2.12.0 (WooCommerce/3.9.2; WordPress/5.3.2)
+headers: Array
+(
+    [content-type] => application/xml
+    [accept] => application/xml
+)
+body: <?xml version="1.0" encoding="UTF-8"?>
+<request>
+  <store_id>store5</store_id>
+  <api_token>******</api_token>
+  <purchase>
+    <order_id>5e558c069f85218808809136673</order_id>
+    <cust_id>wc-6-5e558bda5a827</cust_id>
+    <amount>134.00</amount>
+    <pan>5***********4242</pan>
+    <expdate>2101</expdate>
+    <crypt_type>7</crypt_type>
+    <dynamic_descriptor/>
+    <cvd_info>
+      <cvd_indicator>1</cvd_indicator>
+      <cvd_value>***</cvd_value>
+    </cvd_info>
+    <cust_info>
+      <email>lhryciw@prairiemeats.ca</email>
+      <instructions>fake order</instructions>
+      <billing>
+        <first_name>lisa</first_name>
+        <last_name>hryciw</last_name>
+        <company_name>Prairie Meats</company_name>
+        <address>2326 Millar Ave.</address>
+        <city>Saskatoon</city>
+        <province>SK</province>
+        <postal_code>S7K 2Y2</postal_code>
+        <country>CA</country>
+        <phone_number>3063817541</phone_number>
+        <fax/>
+        <tax1/>
+        <tax2/>
+        <tax3/>
+        <shipping_cost>11.95</shipping_cost>
+      </billing>
+      <shipping>
+        <first_name>lisa</first_name>
+        <last_name>hryciw</last_name>
+        <company_name>Prairie Meats</company_name>
+        <address>2326 Millar Ave.</address>
+        <city>Saskatoon</city>
+        <province>SK</province>
+        <postal_code>S7K 2Y2</postal_code>
+        <country>CA</country>
+        <phone_number/>
+        <fax/>
+        <tax1/>
+        <tax2/>
+        <tax3/>
+        <shipping_cost>11.95</shipping_cost>
+      </shipping>
+      <item>
+        <name>Beef Inside Round Steak - Frozen</name>
+        <quantity>1</quantity>
+        <product_code>023085</product_code>
+        <extended_amount>62.90</extended_amount>
+      </item>
+      <item>
+        <name>3 Cheese Scalloped Potatoes</name>
+        <quantity>1</quantity>
+        <product_code>480013</product_code>
+        <extended_amount>9.90</extended_amount>
+      </item>
+      <item>
+        <name>Bothwell Horseradish Cheddar Cheese</name>
+        <quantity>1</quantity>
+        <product_code>417070</product_code>
+        <extended_amount>3.90</extended_amount>
+      </item>
+      <item>
+        <name>Breakfast Pack</name>
+        <quantity>1</quantity>
+        <product_code>510042</product_code>
+        <extended_amount>45.00</extended_amount>
+      </item>
+    </cust_info>
+  </purchase>
+</request>
+duration: 8.94181s
+
+02-25-2020 @ 21:05:19 - Response
+code: 200
+message: OK
+headers: Array
+(
+    [date] => Tue, 25 Feb 2020 21:05:19 GMT
+    [content-length] => 716
+    [x-ua-compatible] => IE=Edge
+    [content-type] => text/html
+    [set-cookie] => TS019df888=015d06d254ba3c7ccf5d99b66a91f4d1c11ec848547bfacf0e4dcacc04a420935f943de1047e098f59af59134d8abe77376fd2857c; Path=/; Domain=.esqa.moneris.com; Secure
+)
+body: <?xml version="1.0" standalone="yes"?>
+<response>
+  <receipt>
+    <ReceiptId>5e558c069f85218808809136673</ReceiptId>
+    <ReferenceNum>660148420017652420</ReferenceNum>
+    <ResponseCode>027</ResponseCode>
+    <ISO>01</ISO>
+    <AuthCode>214924</AuthCode>
+    <TransTime>16:05:19</TransTime>
+    <TransDate>2020-02-25</TransDate>
+    <TransType>00</TransType>
+    <Complete>true</Complete>
+    <Message>APPROVED           *                    =</Message>
+    <TransAmount>134.00</TransAmount>
+    <CardType>M</CardType>
+    <TransID>237115-0_15</TransID>
+    <TimedOut>false</TimedOut>
+    <BankTotals>null</BankTotals>
+    <Ticket>null</Ticket>
+    <CorporateCard>true</CorporateCard>
+    <CvdResultCode>1P</CvdResultCode>
+    <CavvResultCode>2</CavvResultCode>
+    <IsVisaDebit>false</IsVisaDebit>
+  </receipt>
+</response>
+

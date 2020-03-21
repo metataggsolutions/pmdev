@@ -1,0 +1,220 @@
+02-26-2020 @ 18:45:14 - Request
+method: POST
+uri: https://esqa.moneris.com/gateway2/servlet/MpgRequest
+user-agent: WooCommerce-Moneris-Gateway/2.12.0 (WooCommerce/3.9.2; WordPress/5.3.2)
+headers: Array
+(
+    [content-type] => application/xml
+    [accept] => application/xml
+)
+body: <?xml version="1.0" encoding="UTF-8"?>
+<request>
+  <store_id>store5</store_id>
+  <api_token>******</api_token>
+  <purchase>
+    <order_id>5e56bcb3bfa6d55483883936697</order_id>
+    <amount>24.80</amount>
+    <pan>5***********4242</pan>
+    <expdate>2101</expdate>
+    <crypt_type>7</crypt_type>
+    <dynamic_descriptor/>
+    <cvd_info>
+      <cvd_indicator>1</cvd_indicator>
+      <cvd_value>***</cvd_value>
+    </cvd_info>
+    <cust_info>
+      <email>elfmister@msn.com</email>
+      <instructions>deliver please to 2450 Dudley st. For free.</instructions>
+      <billing>
+        <first_name>Kim</first_name>
+        <last_name>Thiessen</last_name>
+        <company_name/>
+        <address>Box 384</address>
+        <city>Waldheim</city>
+        <province>SK</province>
+        <postal_code>S0K 4R0</postal_code>
+        <country>CA</country>
+        <phone_number>3063704878</phone_number>
+        <fax/>
+        <tax1/>
+        <tax2/>
+        <tax3/>
+        <shipping_cost>0.00</shipping_cost>
+      </billing>
+      <shipping>
+        <first_name>Kim</first_name>
+        <last_name>Thiessen</last_name>
+        <company_name/>
+        <address>2450 DUdley st</address>
+        <city>Saskatoon</city>
+        <province>SK</province>
+        <postal_code>S7M 5S9</postal_code>
+        <country>CA</country>
+        <phone_number/>
+        <fax/>
+        <tax1/>
+        <tax2/>
+        <tax3/>
+        <shipping_cost>0.00</shipping_cost>
+      </shipping>
+      <item>
+        <name>Cherry Bacon &amp;amp; Chicken Alfredo</name>
+        <quantity>1</quantity>
+        <product_code>480052</product_code>
+        <extended_amount>11.90</extended_amount>
+      </item>
+      <item>
+        <name>Sticky Toffee Pudding</name>
+        <quantity>1</quantity>
+        <product_code>480041</product_code>
+        <extended_amount>12.90</extended_amount>
+      </item>
+    </cust_info>
+  </purchase>
+</request>
+duration: 6.916s
+
+02-26-2020 @ 18:45:14 - Response
+code: 200
+message: OK
+headers: Array
+(
+    [date] => Wed, 26 Feb 2020 18:45:14 GMT
+    [content-length] => 715
+    [x-ua-compatible] => IE=Edge
+    [content-type] => text/html
+    [set-cookie] => TS019df888=015d06d254d78828cda51a03256412592820958cca65f0ef228910781989956c18de380b4d5171ef77b4006d1ab03a4757a8e48b50; Path=/; Domain=.esqa.moneris.com; Secure
+)
+body: <?xml version="1.0" standalone="yes"?>
+<response>
+  <receipt>
+    <ReceiptId>5e56bcb3bfa6d55483883936697</ReceiptId>
+    <ReferenceNum>660148420017675800</ReferenceNum>
+    <ResponseCode>027</ResponseCode>
+    <ISO>01</ISO>
+    <AuthCode>382641</AuthCode>
+    <TransTime>13:45:14</TransTime>
+    <TransDate>2020-02-26</TransDate>
+    <TransType>00</TransType>
+    <Complete>true</Complete>
+    <Message>APPROVED           *                    =</Message>
+    <TransAmount>24.80</TransAmount>
+    <CardType>M</CardType>
+    <TransID>251862-0_15</TransID>
+    <TimedOut>false</TimedOut>
+    <BankTotals>null</BankTotals>
+    <Ticket>null</Ticket>
+    <CorporateCard>true</CorporateCard>
+    <CvdResultCode>1P</CvdResultCode>
+    <CavvResultCode>2</CavvResultCode>
+    <IsVisaDebit>false</IsVisaDebit>
+  </receipt>
+</response>
+
+02-26-2020 @ 22:36:34 - Request
+method: POST
+uri: https://esqa.moneris.com/gateway2/servlet/MpgRequest
+user-agent: WooCommerce-Moneris-Gateway/2.12.0 (WooCommerce/3.9.2; WordPress/5.3.2)
+headers: Array
+(
+    [content-type] => application/xml
+    [accept] => application/xml
+)
+body: <?xml version="1.0" encoding="UTF-8"?>
+<request>
+  <store_id>store5</store_id>
+  <api_token>******</api_token>
+  <purchase>
+    <order_id>5e56f2ec05dad53699998436715</order_id>
+    <amount>63.45</amount>
+    <pan>5***********4242</pan>
+    <expdate>2101</expdate>
+    <crypt_type>7</crypt_type>
+    <dynamic_descriptor/>
+    <cvd_info>
+      <cvd_indicator>1</cvd_indicator>
+      <cvd_value>***</cvd_value>
+    </cvd_info>
+    <cust_info>
+      <email>swestby@prairiemeats.ca</email>
+      <instructions/>
+      <billing>
+        <first_name>Shyann</first_name>
+        <last_name>Westby</last_name>
+        <company_name/>
+        <address>2326 Millar Ave</address>
+        <city>saskatoon</city>
+        <province>SK</province>
+        <postal_code>S7K 2Y2</postal_code>
+        <country>CA</country>
+        <phone_number>3062601289</phone_number>
+        <fax/>
+        <tax1/>
+        <tax2/>
+        <tax3/>
+        <shipping_cost>13.95</shipping_cost>
+      </billing>
+      <shipping>
+        <first_name>Shyann</first_name>
+        <last_name>Westby</last_name>
+        <company_name/>
+        <address>2326 Millar Ave</address>
+        <city>saskatoon</city>
+        <province>SK</province>
+        <postal_code>S7K 2Y2</postal_code>
+        <country>CA</country>
+        <phone_number/>
+        <fax/>
+        <tax1/>
+        <tax2/>
+        <tax3/>
+        <shipping_cost>13.95</shipping_cost>
+      </shipping>
+      <item>
+        <name>3 Cheese Scalloped Potatoes</name>
+        <quantity>5</quantity>
+        <product_code>480013</product_code>
+        <extended_amount>49.50</extended_amount>
+      </item>
+    </cust_info>
+  </purchase>
+</request>
+duration: 6.29755s
+
+02-26-2020 @ 22:36:34 - Response
+code: 200
+message: OK
+headers: Array
+(
+    [date] => Wed, 26 Feb 2020 22:36:33 GMT
+    [content-length] => 715
+    [x-ua-compatible] => IE=Edge
+    [content-type] => text/html
+    [set-cookie] => TS019df888=015d06d25414145f4ebd9b78b434f4a1019fda6f278a90b8af533f6d7240ec30d3b0b4de3179201c09f1408fbce2d63f1aa2ec4765; Path=/; Domain=.esqa.moneris.com; Secure
+)
+body: <?xml version="1.0" standalone="yes"?>
+<response>
+  <receipt>
+    <ReceiptId>5e56f2ec05dad53699998436715</ReceiptId>
+    <ReferenceNum>660148420017727570</ReferenceNum>
+    <ResponseCode>027</ResponseCode>
+    <ISO>01</ISO>
+    <AuthCode>808246</AuthCode>
+    <TransTime>17:36:34</TransTime>
+    <TransDate>2020-02-26</TransDate>
+    <TransType>00</TransType>
+    <Complete>true</Complete>
+    <Message>APPROVED           *                    =</Message>
+    <TransAmount>63.45</TransAmount>
+    <CardType>M</CardType>
+    <TransID>258221-0_15</TransID>
+    <TimedOut>false</TimedOut>
+    <BankTotals>null</BankTotals>
+    <Ticket>null</Ticket>
+    <CorporateCard>true</CorporateCard>
+    <CvdResultCode>1P</CvdResultCode>
+    <CavvResultCode>2</CavvResultCode>
+    <IsVisaDebit>false</IsVisaDebit>
+  </receipt>
+</response>
+

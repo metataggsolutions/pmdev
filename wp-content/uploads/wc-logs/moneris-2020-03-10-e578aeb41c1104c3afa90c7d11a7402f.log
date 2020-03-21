@@ -1,0 +1,227 @@
+03-10-2020 @ 09:09:24 - Request
+method: POST
+uri: https://esqa.moneris.com/gateway2/servlet/MpgRequest
+user-agent: WooCommerce-Moneris-Gateway/2.12.0 (WooCommerce/3.9.3; WordPress/5.3.2)
+headers: Array
+(
+    [content-type] => application/xml
+    [accept] => application/xml
+)
+body: <?xml version="1.0" encoding="UTF-8"?>
+<request>
+  <store_id>store5</store_id>
+  <api_token>******</api_token>
+  <purchase>
+    <order_id>5e67ad9eb109452511572836907</order_id>
+    <amount>4.00</amount>
+    <pan>5***********4242</pan>
+    <expdate>2101</expdate>
+    <crypt_type>7</crypt_type>
+    <dynamic_descriptor/>
+    <cvd_info>
+      <cvd_indicator>1</cvd_indicator>
+      <cvd_value>***</cvd_value>
+    </cvd_info>
+    <cust_info>
+      <email>margaret.c.owens@gmail.com</email>
+      <instructions/>
+      <billing>
+        <first_name>Test</first_name>
+        <last_name>Test</last_name>
+        <company_name>Wow Factor Media</company_name>
+        <address>4605 Gordon Rd, Regina, SK S4W 0B7, Canada</address>
+        <city>Regina</city>
+        <province>SK</province>
+        <postal_code>S4W 0B7</postal_code>
+        <country>CA</country>
+        <phone_number>03066941556</phone_number>
+        <fax/>
+        <tax1/>
+        <tax2/>
+        <tax3/>
+        <shipping_cost>13.95</shipping_cost>
+      </billing>
+      <shipping>
+        <first_name>Test</first_name>
+        <last_name>Test</last_name>
+        <company_name>Wow Factor Media</company_name>
+        <address>4605 Gordon Rd, Regina, SK S4W 0B7, Canada</address>
+        <city>Regina</city>
+        <province>SK</province>
+        <postal_code>S4W 0B7</postal_code>
+        <country>CA</country>
+        <phone_number/>
+        <fax/>
+        <tax1/>
+        <tax2/>
+        <tax3/>
+        <shipping_cost>13.95</shipping_cost>
+      </shipping>
+      <item>
+        <name>Boneless, Skinless Chicken Breast - Frozen</name>
+        <quantity>1</quantity>
+        <product_code>122114</product_code>
+        <extended_amount>35.90</extended_amount>
+      </item>
+    </cust_info>
+  </purchase>
+</request>
+duration: 5.37345s
+
+03-10-2020 @ 09:09:24 - Response
+code: 200
+message: OK
+headers: Array
+(
+    [date] => Tue, 10 Mar 2020 15:09:23 GMT
+    [content-length] => 714
+    [x-ua-compatible] => IE=Edge
+    [content-type] => text/html
+    [set-cookie] => TS019df888=015d06d2546a484dbeda5e357cc69daa3dd215a27a7295edc2df95651c9bdc7d5c64aca6cf204cc9dcecd06d6b9071b2d09a499201; Path=/; Domain=.esqa.moneris.com; Secure
+)
+body: <?xml version="1.0" standalone="yes"?>
+<response>
+  <receipt>
+    <ReceiptId>5e67ad9eb109452511572836907</ReceiptId>
+    <ReferenceNum>660148420017976470</ReferenceNum>
+    <ResponseCode>027</ResponseCode>
+    <ISO>01</ISO>
+    <AuthCode>232487</AuthCode>
+    <TransTime>11:09:23</TransTime>
+    <TransDate>2020-03-10</TransDate>
+    <TransType>00</TransType>
+    <Complete>true</Complete>
+    <Message>APPROVED           *                    =</Message>
+    <TransAmount>4.00</TransAmount>
+    <CardType>M</CardType>
+    <TransID>477960-0_15</TransID>
+    <TimedOut>false</TimedOut>
+    <BankTotals>null</BankTotals>
+    <Ticket>null</Ticket>
+    <CorporateCard>true</CorporateCard>
+    <CvdResultCode>1P</CvdResultCode>
+    <CavvResultCode>2</CavvResultCode>
+    <IsVisaDebit>false</IsVisaDebit>
+  </receipt>
+</response>
+
+03-10-2020 @ 16:17:08 - Request
+method: POST
+uri: https://esqa.moneris.com/gateway2/servlet/MpgRequest
+user-agent: WooCommerce-Moneris-Gateway/2.12.0 (WooCommerce/3.9.3; WordPress/5.3.2)
+headers: Array
+(
+    [content-type] => application/xml
+    [accept] => application/xml
+)
+body: <?xml version="1.0" encoding="UTF-8"?>
+<request>
+  <store_id>store5</store_id>
+  <api_token>******</api_token>
+  <purchase>
+    <order_id>5e6811e05617159866367436908</order_id>
+    <cust_id>wc-16-5e68114c0051e</cust_id>
+    <amount>183.45</amount>
+    <pan>5***********4242</pan>
+    <expdate>2101</expdate>
+    <crypt_type>7</crypt_type>
+    <dynamic_descriptor/>
+    <cvd_info>
+      <cvd_indicator>1</cvd_indicator>
+      <cvd_value>***</cvd_value>
+    </cvd_info>
+    <cust_info>
+      <email>lisah@myself.com</email>
+      <instructions/>
+      <billing>
+        <first_name>lisa</first_name>
+        <last_name>hryciw</last_name>
+        <company_name>Prairie Meats</company_name>
+        <address>2326 Millar Ave.</address>
+        <city>Saskatoon</city>
+        <province>SK</province>
+        <postal_code>S7K 2Y2</postal_code>
+        <country>CA</country>
+        <phone_number>3063817541</phone_number>
+        <fax/>
+        <tax1/>
+        <tax2/>
+        <tax3/>
+        <shipping_cost>11.95</shipping_cost>
+      </billing>
+      <shipping>
+        <first_name>lisa</first_name>
+        <last_name>hryciw</last_name>
+        <company_name>Prairie Meats</company_name>
+        <address>2326 Millar Ave.</address>
+        <city>Saskatoon</city>
+        <province>SK</province>
+        <postal_code>S7K 2Y2</postal_code>
+        <country>CA</country>
+        <phone_number/>
+        <fax/>
+        <tax1/>
+        <tax2/>
+        <tax3/>
+        <shipping_cost>11.95</shipping_cost>
+      </shipping>
+      <item>
+        <name>Boneless Pork Bites</name>
+        <quantity>1</quantity>
+        <product_code>256192</product_code>
+        <extended_amount>17.90</extended_amount>
+      </item>
+      <item>
+        <name>Beef Ribeye Steak - Frozen</name>
+        <quantity>1</quantity>
+        <product_code>023097</product_code>
+        <extended_amount>75.90</extended_amount>
+      </item>
+      <item>
+        <name>Boneless Centre Cut Pork Loin Chop - Frozen</name>
+        <quantity>3</quantity>
+        <product_code>103020</product_code>
+        <extended_amount>77.70</extended_amount>
+      </item>
+    </cust_info>
+  </purchase>
+</request>
+duration: 3.79625s
+
+03-10-2020 @ 16:17:08 - Response
+code: 200
+message: OK
+headers: Array
+(
+    [date] => Tue, 10 Mar 2020 22:17:07 GMT
+    [content-length] => 716
+    [x-ua-compatible] => IE=Edge
+    [content-type] => text/html
+    [set-cookie] => TS019df888=015d06d254fca4e526f4653b7355ebf53c27c18e6613058d0cf96409c30dd415c0a927529adb05cae1d84eacff0b6fddb602f05cbe; Path=/; Domain=.esqa.moneris.com; Secure
+)
+body: <?xml version="1.0" standalone="yes"?>
+<response>
+  <receipt>
+    <ReceiptId>5e6811e05617159866367436908</ReceiptId>
+    <ReferenceNum>660148420017977410</ReferenceNum>
+    <ResponseCode>027</ResponseCode>
+    <ISO>01</ISO>
+    <AuthCode>636864</AuthCode>
+    <TransTime>18:17:08</TransTime>
+    <TransDate>2020-03-10</TransDate>
+    <TransType>00</TransType>
+    <Complete>true</Complete>
+    <Message>APPROVED           *                    =</Message>
+    <TransAmount>183.45</TransAmount>
+    <CardType>M</CardType>
+    <TransID>482252-0_15</TransID>
+    <TimedOut>false</TimedOut>
+    <BankTotals>null</BankTotals>
+    <Ticket>null</Ticket>
+    <CorporateCard>true</CorporateCard>
+    <CvdResultCode>1P</CvdResultCode>
+    <CavvResultCode>2</CavvResultCode>
+    <IsVisaDebit>false</IsVisaDebit>
+  </receipt>
+</response>
+

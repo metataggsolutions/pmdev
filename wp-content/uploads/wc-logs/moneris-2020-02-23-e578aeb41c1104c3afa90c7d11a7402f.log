@@ -1,0 +1,113 @@
+02-23-2020 @ 07:17:23 - Request
+method: POST
+uri: https://esqa.moneris.com/gateway2/servlet/MpgRequest
+user-agent: WooCommerce-Moneris-Gateway/2.12.0 (WooCommerce/3.9.2; WordPress/5.3.2)
+headers: Array
+(
+    [content-type] => application/xml
+    [accept] => application/xml
+)
+body: <?xml version="1.0" encoding="UTF-8"?>
+<request>
+  <store_id>store5</store_id>
+  <api_token>******</api_token>
+  <purchase>
+    <order_id>5e5226fc8b8e396156660936492</order_id>
+    <amount>11.00</amount>
+    <pan>5***********4242</pan>
+    <expdate>2101</expdate>
+    <crypt_type>7</crypt_type>
+    <dynamic_descriptor/>
+    <cvd_info>
+      <cvd_indicator>1</cvd_indicator>
+      <cvd_value>***</cvd_value>
+    </cvd_info>
+    <cust_info>
+      <email>margaret.c.owens@gmail.com</email>
+      <instructions/>
+      <billing>
+        <first_name>Margaret</first_name>
+        <last_name>Owens</last_name>
+        <company_name/>
+        <address>419 Ominica Street West</address>
+        <city>Moose Jaw</city>
+        <province>SK</province>
+        <postal_code>S6H 1X7</postal_code>
+        <country>CA</country>
+        <phone_number>1306630863</phone_number>
+        <fax/>
+        <tax1/>
+        <tax2/>
+        <tax3/>
+        <shipping_cost>0.00</shipping_cost>
+      </billing>
+      <shipping>
+        <first_name>Margaret</first_name>
+        <last_name>Owens</last_name>
+        <company_name/>
+        <address>419 Ominica Street West</address>
+        <city>Moose Jaw</city>
+        <province>SK</province>
+        <postal_code>S6H 1X7</postal_code>
+        <country>CA</country>
+        <phone_number/>
+        <fax/>
+        <tax1/>
+        <tax2/>
+        <tax3/>
+        <shipping_cost>0.00</shipping_cost>
+      </shipping>
+      <item>
+        <name>Rabbit</name>
+        <quantity>2</quantity>
+        <product_code>220102</product_code>
+        <extended_amount>66.54</extended_amount>
+      </item>
+      <item>
+        <name>Bacon Wrapped Beef Tenderloin Steak - Frozen</name>
+        <quantity>1</quantity>
+        <product_code>023104</product_code>
+        <extended_amount>97.90</extended_amount>
+      </item>
+    </cust_info>
+  </purchase>
+</request>
+duration: 6.8143s
+
+02-23-2020 @ 07:17:23 - Response
+code: 200
+message: OK
+headers: Array
+(
+    [date] => Sun, 23 Feb 2020 07:17:22 GMT
+    [content-length] => 715
+    [x-ua-compatible] => IE=Edge
+    [content-type] => text/html
+    [set-cookie] => TS019df888=015d06d254e70e1a69d4311c2c7d994401945a3b7a7e5ac53945a3f9dbd96b088a3f3943e45c40cb9c1e577d601a1874e2073f635f; Path=/; Domain=.esqa.moneris.com; Secure
+)
+body: <?xml version="1.0" standalone="yes"?>
+<response>
+  <receipt>
+    <ReceiptId>5e5226fc8b8e396156660936492</ReceiptId>
+    <ReferenceNum>660148420017609950</ReferenceNum>
+    <ResponseCode>027</ResponseCode>
+    <ISO>01</ISO>
+    <AuthCode>696602</AuthCode>
+    <TransTime>02:17:23</TransTime>
+    <TransDate>2020-02-23</TransDate>
+    <TransType>00</TransType>
+    <Complete>true</Complete>
+    <Message>APPROVED           *                    =</Message>
+    <TransAmount>11.00</TransAmount>
+    <CardType>M</CardType>
+    <TransID>205432-0_15</TransID>
+    <TimedOut>false</TimedOut>
+    <BankTotals>null</BankTotals>
+    <Ticket>null</Ticket>
+    <CorporateCard>true</CorporateCard>
+    <CvdResultCode>1P</CvdResultCode>
+    <CavvResultCode>2</CavvResultCode>
+    <IsVisaDebit>false</IsVisaDebit>
+  </receipt>
+</response>
+

@@ -1,0 +1,6 @@
+2020-02-24T11:11:52+00:00 CRITICAL Cannot redeclare am_woocommerce_catalog_orderby() (previously declared in /home/wfm/public_html/pmdev.wowfactormedia.ca/wp-content/themes/prairiemeats-child/functions.php:1063) in /home/wfm/public_html/pmdev.wowfactormedia.ca/wp-content/themes/prairiemeats-child/functions.php on line 1090
+
+2020-02-24T11:12:01+00:00 CRITICAL Cannot redeclare am_woocommerce_catalog_orderby() (previously declared in /home/wfm/public_html/pmdev.wowfactormedia.ca/wp-content/themes/prairiemeats-child/functions.php:1063) in /home/wfm/public_html/pmdev.wowfactormedia.ca/wp-content/themes/prairiemeats-child/functions.php on line 1090
+
+2020-02-24T11:12:10+00:00 CRITICAL Cannot redeclare am_woocommerce_catalog_orderby() (previously declared in /home/wfm/public_html/pmdev.wowfactormedia.ca/wp-content/themes/prairiemeats-child/functions.php:1063) in /home/wfm/public_html/pmdev.wowfactormedia.ca/wp-content/themes/prairiemeats-child/functions.php on line 1090
+

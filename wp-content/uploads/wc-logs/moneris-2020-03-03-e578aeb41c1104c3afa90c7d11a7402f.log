@@ -1,0 +1,114 @@
+03-02-2020 @ 20:59:42 - Request
+method: POST
+uri: https://esqa.moneris.com/gateway2/servlet/MpgRequest
+user-agent: WooCommerce-Moneris-Gateway/2.12.0 (WooCommerce/3.9.2; WordPress/5.3.2)
+headers: Array
+(
+    [content-type] => application/xml
+    [accept] => application/xml
+)
+body: <?xml version="1.0" encoding="UTF-8"?>
+<request>
+  <store_id>store5</store_id>
+  <api_token>******</api_token>
+  <purchase>
+    <order_id>5e5dc8182f9fe74781153936833</order_id>
+    <cust_id>wc-3-5e432357ad237</cust_id>
+    <amount>11.00</amount>
+    <pan>5***********4242</pan>
+    <expdate>2101</expdate>
+    <crypt_type>7</crypt_type>
+    <dynamic_descriptor/>
+    <cvd_info>
+      <cvd_indicator>1</cvd_indicator>
+      <cvd_value>***</cvd_value>
+    </cvd_info>
+    <cust_info>
+      <email>margaret.c.owens@gmail.cim</email>
+      <instructions/>
+      <billing>
+        <first_name>Margaret</first_name>
+        <last_name>Owens</last_name>
+        <company_name/>
+        <address>4605 Gordon Rd, Regina, SK S4W 0B7, Canada</address>
+        <city>Regina</city>
+        <province>SK</province>
+        <postal_code>S4W 0B7</postal_code>
+        <country>CA</country>
+        <phone_number>3066308636</phone_number>
+        <fax/>
+        <tax1/>
+        <tax2/>
+        <tax3/>
+        <shipping_cost>11.95</shipping_cost>
+      </billing>
+      <shipping>
+        <first_name>Margaret</first_name>
+        <last_name>Owens</last_name>
+        <company_name/>
+        <address>4605 Gordon Rd, Regina, SK S4W 0B7, Canada</address>
+        <city>Regina</city>
+        <province>SK</province>
+        <postal_code>S4W 0B7</postal_code>
+        <country>CA</country>
+        <phone_number/>
+        <fax/>
+        <tax1/>
+        <tax2/>
+        <tax3/>
+        <shipping_cost>11.95</shipping_cost>
+      </shipping>
+      <item>
+        <name>Rabbit</name>
+        <quantity>2</quantity>
+        <product_code>220102</product_code>
+        <extended_amount>66.54</extended_amount>
+      </item>
+      <item>
+        <name>Bacon Wrapped Beef Tenderloin Steak - Frozen</name>
+        <quantity>1</quantity>
+        <product_code>023104</product_code>
+        <extended_amount>103.90</extended_amount>
+      </item>
+    </cust_info>
+  </purchase>
+</request>
+duration: 6.5709s
+
+03-02-2020 @ 20:59:42 - Response
+code: 200
+message: OK
+headers: Array
+(
+    [date] => Tue, 03 Mar 2020 02:59:42 GMT
+    [content-length] => 715
+    [x-ua-compatible] => IE=Edge
+    [content-type] => text/html
+    [set-cookie] => TS019df888=015d06d2541379f3bd9a2f7a3bd7ba0ae9487a460aa87281ef2cbd57441e70996230f3a86be59896b1f9ec6948e3d1f1377b5ef9dd; Path=/; Domain=.esqa.moneris.com; Secure
+)
+body: <?xml version="1.0" standalone="yes"?>
+<response>
+  <receipt>
+    <ReceiptId>5e5dc8182f9fe74781153936833</ReceiptId>
+    <ReferenceNum>660148420017847800</ReferenceNum>
+    <ResponseCode>027</ResponseCode>
+    <ISO>01</ISO>
+    <AuthCode>445669</AuthCode>
+    <TransTime>21:59:42</TransTime>
+    <TransDate>2020-03-02</TransDate>
+    <TransType>00</TransType>
+    <Complete>true</Complete>
+    <Message>APPROVED           *                    =</Message>
+    <TransAmount>11.00</TransAmount>
+    <CardType>M</CardType>
+    <TransID>360730-0_15</TransID>
+    <TimedOut>false</TimedOut>
+    <BankTotals>null</BankTotals>
+    <Ticket>null</Ticket>
+    <CorporateCard>true</CorporateCard>
+    <CvdResultCode>1P</CvdResultCode>
+    <CavvResultCode>2</CavvResultCode>
+    <IsVisaDebit>false</IsVisaDebit>
+  </receipt>
+</response>
+
